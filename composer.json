@@ -1,0 +1,21 @@
+{
+    "name": "mtsite/amocrm",
+    "description": "AmoCRM API client",
+    "license": "MIT",
+    "keywords": ["amo", "crm", "mtsite"],
+    "authors": [
+        {
+            "name": "Ilya Maslov",
+            "email": "fat4lix@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mtsite\\AmoCRM\\": "src"
+        }
+    }
+}
